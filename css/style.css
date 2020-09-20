@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #ffffff;
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 30px 0;
+}
+
+.sign-in {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin: 16px 20px;
+  float: left;
+}
+
+.sign-in-link {
+  font-family: "Roboto", serif;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #1d1d1d;
+  padding: 14px 20px;
+}
+
+.basket {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.basket-img {
+  padding-right: 11px;
+  padding-left: 11px;
+}
+
+.come {
+  display: flex;
+}
