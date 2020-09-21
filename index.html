@@ -6,7 +6,9 @@
     <title>UBER EAT</title>
     <link
       rel="stylesheet"
-      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdnjs.com/libraries/normalize" />
     <link rel="stylesheet" href="css/style.css" />
@@ -21,15 +23,140 @@
         <div class="logo">
           <img src="img/logo.svg" alt="" />
         </div>
-        <div class="come">
+        <div class="login">
           <div class="sign-in">
-            <a href="#" class="sign-in-link">Войти</a>
+            <a href="#" class="sign-in__link">Войти</a>
           </div>
           <div class="basket">
-            <img src="img/basket.svg" alt="" class="basket-img" />
+            <img src="img/basket.svg" alt="" class="basket__img" />
           </div>
         </div>
       </div>
     </header>
+
+    <section class="search">
+      <div class="container search-container">
+        <form class="search-form">
+          <input
+            type="text"
+            placeholder="Поиск по ресторанам и кухням"
+            class="search-form__input"
+          />
+        </form>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="container-title">
+        <h1>Рестораны в Москве</h1>
+      </div>
+    </div>
+
+    <section class="cards">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-1.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Макдоналс газетный</h5>
+                <p class="card-dish-name">₽₽ • Бургеры</p>
+                <p class="card-time-delivery">25 - 35 мин</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-2.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">DimSum & Co — ЦДМ</h5>
+                <p class="card-dish-name">
+                  ₽ • Японская • Китайская • Азиатская
+                </p>
+                <p class="card-time-delivery">40 - 50 мин</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-3.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">ДвижОК — Манежная</h5>
+                <p class="card-dish-name">₽ • Американская • Европейская</p>
+                <p class="card-time-delivery">35 - 45 мин</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-4.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">НЯ — NHA</h5>
+                <p class="card-dish-name">₽₽ • Вьетнамская</p>
+                <p class="card-time-delivery">30 - 40 мин</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-5.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Точка Дзы — Цветной</h5>
+                <p class="card-dish-name">₽₽ • Вьетнамская</p>
+                <p class="card-time-delivery">40 - 50 мин</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-6.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Cinnabon</h5>
+                <p class="card-dish-name">₽ • Выпечка • Десерты • Капкейки</p>
+                <p class="card-time-delivery">25 - 35 мин</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-7.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">PIZZELOVE</h5>
+                <p class="card-dish-name">₽₽ • Пицца</p>
+                <p class="card-time-delivery">15 - 25 мин</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-8.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Zю кафе — Тверская</h5>
+                <p class="card-dish-name">₽₽ • Японская</p>
+                <p class="card-time-delivery">25 - 35 мин</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/card_img/card-9.png" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">Bar BQ Cafe — Манежная</h5>
+                <p class="card-dish-name">₽₽₽ • Европейская</p>
+                <p class="card-time-delivery">30 - 40 мин</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

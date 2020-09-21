@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+body {
+  font-family: "Roboto", serif;
+}
+
 header {
   background: #ffffff;
   box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
@@ -32,7 +36,7 @@ header {
   float: left;
 }
 
-.sign-in-link {
+.sign-in__link {
   font-family: "Roboto", serif;
   text-decoration: none;
   font-weight: 900;
@@ -51,11 +55,87 @@ header {
   text-align: center;
 }
 
-.basket-img {
+.basket__img {
   padding-right: 11px;
   padding-left: 11px;
 }
 
-.come {
+.login {
   display: flex;
+}
+
+.search-container {
+  display: flex;
+  position: relative;
+  margin-top: 32px;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+}
+
+.search-form__input {
+  border: none;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+  mix-blend-mode: normal;
+  width: 100%;
+  padding: 15px 0 0 0;
+  outline: none;
+}
+
+.search-form__input::-webkit-input-placeholder {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(98, 98, 98, 0.5);
+  mix-blend-mode: normal;
+}
+
+.container-title {
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
+
+.container-title h1 {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+
+.card {
+  margin-bottom: 16px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+}
+
+.card-dish-name {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+
+.card-time-delivery {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1d1d1d;
 }
