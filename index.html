@@ -167,12 +167,26 @@
           </div>
           <div class="contacts">
             <div class="aboutUs">
-              <form class="form-language">
-                <select name="select-language">
-                  <option value="">Русский</option>
-                  <option value="">English</option>
-                </select>
-              </form>
+              <div class="row">
+                <div class="col-xs-7 col-md-5 col-lg-3">
+                  <div class="select is-active">
+                    <div class="select__header">
+                      <div class="select__img">
+                        <img src="img/svg/world.svg" alt="" />
+                      </div>
+                      <span class="select__current">Русский</span>
+                      <div class="select__icon">
+                        <img src="img/svg/arrow-back.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="select__body">
+                      <div class="select__item">Русский</div>
+                      <div class="select__item">English</div>
+                      <div class="select__item">France</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="social">
                 <p class="social__hash-tag"></p>
                 <div class="social__icons">
@@ -211,5 +225,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
