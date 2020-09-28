@@ -1,5 +1,5 @@
 let select = function () {
-  let selectBody = document.querySelector(".select.is-active .select__body");
+  let selectBody = document.querySelector(".select__body");
   let selectHeader = document.querySelectorAll(".select__header");
   let selectItem = document.querySelectorAll(".select__item");
 
