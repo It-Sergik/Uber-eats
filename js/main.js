@@ -25,4 +25,5 @@ let select = function () {
     currentText.innerText = text;
   }
 };
+
 select();
