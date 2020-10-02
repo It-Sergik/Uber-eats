@@ -420,3 +420,38 @@ header {
   color: #ffffff;
   margin: 8px 16px;
 }
+
+.menu {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.container-menu {
+  background: #ffffff;
+  justify-content: flex-start;
+  padding: 32px 29px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #327430;
+  margin: 32px 40px 29px 0px;
+}
+
+.menu-item:hover {
+  text-decoration: none;
+  color: green;
+}
